@@ -1,0 +1,14 @@
+.default{
+	color: black;
+}
+.ForTestText {
+	color: black;
+	background-color: gray;
+	width: 300px;
+	height: 50px;
+	position: relative;
+}
+.pos {
+	top: 700px;
+	left: 700px;
+}

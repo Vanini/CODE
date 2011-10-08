@@ -1,0 +1,117 @@
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>OI资料共享小站</title>
+	<link media="all" rel="stylesheet" href="style.css" type="text/css" />
+	<link href="favicon.png" rel="shortcut icon" type="image/x-icon">
+	<script src="jquery.min.js" type="text/javascript"> </script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$("#_about").hide();
+			$("#Vani-img-focus,#nzk-img-focus").mouseover(function(){
+				$(this).animate({width:"60px", height:"60px"}, "300");
+				});
+			$("#Vani-img-focus,#nzk-img-focus").mouseout(function(){
+				$(this).animate({width:"45px", height:"45px"}, "300");
+				});
+			$("#go-about").click(function(){
+				$("#_home").hide();
+				$("#_about").show();
+				});	
+			$("#go-home").click(function(){
+				$("#_about").hide();
+				$("#_home").show();
+				});
+
+			});
+	</script>
+</head>
+<body>
+	<!--index-->
+	<div class="index indexcircle shadow">
+		<ul class = "indexulpos">
+			<li class="indexli">
+				<a id="go-home" class = "linkfont linkfont-change" title = "Home" href = "#">Home</a>
+			</li>
+			<li class="indexli">
+				<a id="go-download" class = "linkfont linkfont-change" title = "下载你所需的资料" href = "home.html">Download</a>
+			</li>
+			<li class="indexli">
+				<a id="go-upload" class = "linkfont linkfont-change" title = "分享你的资料" href = "home.html">Upload</a>
+			</li>
+			<li class="indexli">
+				<a id="go-about" class = "linkfont linkfont-change" title = "关于我们" href = "#">About</a>
+			</li>
+		</ul>
+	</div>
+	<div class="shielding"></div>
+	<img src="head.png" title="OI资料共享" class="head-img" />
+
+	<!--main body-->
+	<div class="_a circleborder borderbase borderpos"> <div class="_b circleborder borderbase">
+		<div class="_c circleborder borderbase">
+			<div class = "main-pos" id="_home">
+				<img src="home_img.jpg" alt="首页图片" class="home-img"/>
+				<pre class="main-font">
+				humorous things:
+
+					Q：在一个森林里迷路怎么办？
+					A：添几条边，把它变成一棵树
+
+				<span style = "color:#ffffff">        不知道放什么，扔张图来充数</span>
+				</pre>
+			</div>
+			<div class = "main-pos" id="_about">
+				<img src="about_img.jpg" alt="首页图片" class="home-img"/>
+				<pre class="about-main-font">
+				Why:    做这个网站，首先是为了OIER能有一个分享资料的平台，
+					因为众所周知，OI的一些题目和数据在网上很难找到，所
+					以希望我们在这里能够分享自己的资料。
+
+				Who：   nzk负责网站的主体架构，Vani负责网站的UI设计
+
+				How：	QQ：182034045
+					e-mail：echooatmeal@gmail.com
+				<span style = "color:#ffffff">        不知道放什么，扔张图来充数</span>
+				</pre>
+			</div>
+
+		</div> 
+	</div> </div>
+	<!--sidebar-->
+		<div class="sidebar-base for-pos">
+			<p class = "sidebar-font-pos-for">For</p>
+		</div>
+		<p class = "for-font">
+			"Share"——<br />
+			这是一个OI资料的共享小站<br />
+			你可以免费下载你所需要的资料<br />
+			或者你和大家分享你的资料<br />
+			这里的资料主要包括试题，试数据等<br />
+			……<br />
+			我明白我所希望的<br />
+			在这里<br />
+			搭建一个资料分享的平台<br />
+			分享爱与OI<br />
+			<br />
+				<!--		<span style = "position: relative; left: 160px;">Vani</span><br />-->
+					   <span style = "position: relative; left: 160px;">2011年9月27日<br />
+		</p>
+		<div class="sidebar-base contact-pos">
+			<div class="sidebar-font-pos-contact">Contact</div>
+		</div>
+		<div class="position-div-pos">
+			<a href="http://hi.baidu.com/mikeni2006" target="_blank" title="mikeni"> 
+				<img src="nzk_logo.png" alt="nzk" class = "portrait img-portrait-pos" id="nzk-img-focus"/> 
+			</a>
+			<a href="http://hi.baidu.com/%E5%B9%BF%E9%99%B5lonely%E6%95%A3/home" target="_blank" title="Vani"> 
+				<img src="Vani_logo.png" alt="Vani" class = "portrait img-portrait-pos" id="Vani-img-focus"/> 
+			</a>
+		</div>
+		<div class="sidebar-line"></div>
+	<!--copyright imformation-->
+	<div class="copyright">
+		<pre class = "copyright-font">     Share - OI资料共享小站.Copyright Â© 2011 All Rights Reserved                       Manage by mikeni|Theme by Vani</pre>
+	</div>
+</body>
+</html>

@@ -1,0 +1,17 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+Edge	source.cpp	/^class Edge {$/;"	c	file:
+Fuck	source.cpp	4;"	d	file:
+Int64	source.cpp	/^typedef long long Int64;$/;"	t	file:
+LL	source.cpp	3;"	d	file:
+a	source.cpp	/^}*a;$/;"	v	typeref:class:Edge
+main	source.cpp	/^int main(void) {$/;"	f
+next	source.cpp	/^	int y, z; Edge *next, *opt;$/;"	m	class:Edge	file:
+o	source.cpp	/^inline int o(int a, int b) {$/;"	f
+opt	source.cpp	/^	int y, z; Edge *next, *opt;$/;"	m	class:Edge	file:
+y	source.cpp	/^	int y, z; Edge *next, *opt;$/;"	m	class:Edge	file:
+z	source.cpp	/^	int y, z; Edge *next, *opt;$/;"	m	class:Edge	file:
